@@ -1,0 +1,39 @@
+.ml001 {
+  margin-left: 28%;
+  margin-bottom: 10%;
+}
+.ml002 {
+  border: none;
+  border-radius: 10px;
+  width: 560px;
+  height: 315px;
+}
+.samitab {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.samitab td,
+th {
+  border: 1px solid blue;
+  padding: 10px 15px;
+}
+.samitab th {
+  background-color: rgb(220, 220, 137);
+}
+.samitab tr {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+.spc001 {
+  background-color: blueviolet;
+}
+.spc003 {
+  background: yellowgreen;
+}
+.spd001 {
+  width: 250px;
+}
+.sul001 {
+  list-style-type: upper-roman;
+}
