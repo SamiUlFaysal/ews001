@@ -3,66 +3,79 @@
   <head>
     <title>WEB DEV</title>
     <link rel="stylesheet" href="main.css" />
-    <link rel="icon" href="sumu/fav.png" type="image/x-icon">
+    <link rel="icon" href="fav.png" type="image/x-icon" />
+    <script src="script.js"></script>
   </head>
   <body>
-    <div>
-      <table class="samitab" >
-        <tr>
-          <th>Company</th>
-          <th class="spd001" >Contact</th>
-          <th colspan="2" >Country</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-          <td>25841</td>
-        </tr>
-        <tr>
-          <td>John Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Canada</td>
-          <td>36854</td>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td class="spc001" >UK</td>
-          <td>36854</td>
-        </tr>
-        <tr >
-          <td>Domino Radcliff</td>
-          <td>Maria Anders</td>
-          <td>USA</td>
-          <td>36854</td>
-        </tr>
-        <tr class="spc003" >
-          <td colspan="2" >Total:</td>
-          <td colspan="2">36854</td>
-        </tr>
-      </table>
+
+
+<div class="tForm">
+  <h3>Sign Up</h3>
+  <hr>
+  <form class="sForm" action="" method="">
+    <table>
+      <!-- Name Field -->
+      <tr class="form-item">
+        <td><label for="nijerNam">Full Name:</label></td>
+        <td>
+          <input
+            class="sInput"
+            type="text"
+            name="fName"
+            placeholder="Enter Name"
+            id="nijerNam"
+          />
+        </td>
+      </tr>
+      <!-- Father Name Field -->
+      <tr class="form-item">
+        <td><label for="fName">Father Name:</label></td>
+        <td>
+          <input
+            class="sInput"
+            type="text"
+            placeholder="Father Name"
+            name="fName"
+            id="fName"
+          />
+        </td>
+      </tr>
+      <!-- DOB Field -->
+      <tr class="form-item">
+        <td><label for="dob"> Date Of Birth:</label></td>
+        <td><input class="sInput dob" type="date" name="dob" id="dob" /></td>
+      </tr>
+      <!-- Email Field -->
+      <tr class="form-item">
+        <td><label for="sMail"> Email:</label></td>
+        <td>
+          <input
+            class="sInput"
+            type="email"
+            name="sMail"
+            placeholder="john@email.com"
+            id="sMail"
+          />
+        </td>
+      </tr>
+      <!-- Pssword Field -->
+      <tr class="form-item">
+        <td><label for="pass"> Password:</label></td>
+        <td>
+          <input
+            class="sInput"
+            type="password"
+            name="pass"
+            placeholder="Enter Password"
+            id="pass"
+          />
+        </td>
+      </tr>
+    </table>
+    <div class="form-item">
+      <input type="submit" class="sSub" value="Submit" />
     </div>
-
-    <ol>
-      <li>Masud</li>
-      <li>Karim</li>
-      <li>Salam</li>
-      <li>Amin</li>
-    </ol>
-    <ul class="sul001" >
-      <li>Masud</li>
-      <li>Karim</li>
-      <li>Salam</li>
-      <li>Amin</li>
-    </ul>
-
-<div class="ml001">
-  <iframe class="ml002"   src="https://www.youtube.com/embed/EE9ViF84x3s?si=KuWkLCHpwJ-8EQNa"  frameborder="1" allowfullscreen></iframe>
-
+  </form>
 </div>
-
-
-
   </body>
 </html>
