@@ -1,39 +1,47 @@
-.ml001 {
-  margin-left: 28%;
-  margin-bottom: 10%;
+.form-item {
+  margin: 15px 0px;
+  margin-left: 20px;
 }
-.ml002 {
-  border: none;
-  border-radius: 10px;
-  width: 560px;
-  height: 315px;
-}
-.samitab {
-  border: 1px solid rgb(0, 0, 0);
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-.samitab td,
-th {
+.sInput {
   border: 1px solid blue;
-  padding: 10px 15px;
+  border-radius: 2.5px;
+  padding: 6px 4px;
 }
-.samitab th {
-  background-color: rgb(220, 220, 137);
+.sInput:hover {
+  border: 2px solid red;
 }
-.samitab tr {
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+.sSub {
+  background: rgb(84, 55, 146);
+  color: white;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  margin-left: 80px;
 }
-.spc001 {
-  background-color: blueviolet;
+.sSub:hover {
+  background: rgb(55, 119, 146);
+  color: white;
+  padding: 6px 16px;
 }
-.spc003 {
-  background: yellowgreen;
+.dob {
+  padding-right: 50px;
 }
-.spd001 {
-  width: 250px;
+.sForm td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
-.sul001 {
-  list-style-type: upper-roman;
+.tForm {
+  padding: 20px;
+  border: 1px solid green;
+  width: 25%;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.tForm h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 0px;
 }
